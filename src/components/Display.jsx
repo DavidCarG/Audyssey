@@ -15,14 +15,14 @@ const Display = () => {
     if (isAlbum) {
       displayRef.current.style.background = `linear-gradient(${bgColor}, #121212)`;
     } else {
-      displayRef.current.style.background = `#121212`;
+      displayRef.current.style.background = `#7daede`;
     }
   });
 
   return (
     <div
       ref={displayRef}
-      className="w-[100%] m-2 px-6 pt-4 rounded bg-secondary-bg text-primary-text overflow-auto lg:w-[75%] lg:ml-0"
+      className="smooth-transition w-[100%] m-2 px-6 pt-4 rounded bg-secondary-bg text-primary-text overflow-auto lg:w-[75%] lg:ml-0"
     >
       <Routes>
         <Route path="/" element={<DisplayHome />} />
