@@ -17,7 +17,7 @@ const Player = () => {
   } = useContext(PlayerContext);
 
   return (
-    <div className="h-[10%] bg-primary-bg flex justify-between items-center text-primary-text px-4">
+    <div className="h-[10%] bg-secondary-bg flex justify-between items-center text-primary-text px-4">
       <div className="hidden lg:flex items-center gap-4">
         <img className="w-12" src={track.image} alt="" />
         <div>
