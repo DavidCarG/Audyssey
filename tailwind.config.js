@@ -8,6 +8,8 @@ export default {
         "secondary-bg": "#121212",
         "component-bg": "#242424",
         "primary-text": "#FFFFFF", // "white"
+        "progress-bar": "rgb(63 98 18)",
+        "controls-bg": "rgb(248 250 252)",
       },
     },
   },
