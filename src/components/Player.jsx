@@ -1,18 +1,18 @@
 import React, { useContext } from "react";
-import { assets, songsData } from "../assets/assets";
+import { assets } from "../assets/assets";
 import { PlayerContext } from "../context/PlayerContext";
 
 const Player = () => {
-  const { seekBar, seekBg, playStatus, play, pause } =
+  const { track, seekBar, seekBg, playStatus, play, pause } =
     useContext(PlayerContext);
 
   return (
     <div className="h-[10%] bg-primary-bg flex justify-between items-center text-primary-text px-4">
       <div className="hidden lg:flex items-center gap-4">
-        <img className="w-12" src={songsData[0].image} alt="" />
+        <img className="w-12" src={track.image} alt="" />
         <div>
-          <p>{songsData[0].name}</p>
-          <p>{songsData[0].desc.slice(0, 12)}</p>
+          <p>{track.name}</p>
+          <p>{track.desc.slice(0, 12)}</p>
         </div>
       </div>
       <div className="flex flex-col items-center gap-1 m-auto">
