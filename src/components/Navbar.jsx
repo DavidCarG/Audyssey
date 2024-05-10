@@ -11,37 +11,37 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <img
             onClick={() => navigate(-1)}
-            className="w-8 bg-primary-bg p-2 rounded-2xl cursor-pointer"
+            className="w-8 bg-secondary-bg p-2 rounded-2xl cursor-pointer"
             src={assets.arrow_left}
             alt=""
           />
           <img
             onClick={() => navigate(1)}
-            className="w-8 bg-primary-bg p-2 rounded-2xl cursor-pointer"
+            className="w-8 bg-secondary-bg p-2 rounded-2xl cursor-pointer"
             src={assets.arrow_right}
             alt=""
           />
         </div>
         <div className="flex items-center gap-4">
-          <p className="bg-contrast-bg text-primary-bg text-[15px] px-4 py-1 rounded-2xl hidden md:block cursor-pointer">
+          <p className="bg-contrast-bg text-secondary-text text-[15px] px-4 py-1 rounded-2xl hidden md:block cursor-pointer">
             Explore premium
           </p>
-          <p className="bg-primary-bg py-1 px-3 rounded-2xl text-[15px] cursor-pointer">
+          <p className="bg-secondary-bg py-1 px-3 rounded-2xl text-[15px] cursor-pointer">
             Install App
           </p>
-          <p className="bg-profile-icon text-primary-bg w-7 h-7 rounded-full flex items-center justify-center">
+          <p className="bg-profile-icon text-secondary-text w-7 h-7 rounded-full flex items-center justify-center">
             D
           </p>
         </div>
       </div>
       <div className="flex items-center gap-2 mt-4">
-        <p className="bg-contrast-bg text-primary-bg px-4 py-1 rounded-2xl cursor-pointer">
+        <p className="bg-contrast-bg text-secondary-text px-4 py-1 rounded-2xl cursor-pointer">
           All
         </p>
-        <p className="bg-primary-bg px-4 py-1 rounded-2xl cursor-pointer">
+        <p className="bg-primary-bg text-secondary-text px-4 py-1 rounded-2xl cursor-pointer">
           Music
         </p>
-        <p className="bg-primary-bg px-4 py-1 rounded-2xl cursor-pointer">
+        <p className="bg-primary-bg text-secondary-text px-4 py-1 rounded-2xl cursor-pointer">
           Podcasts
         </p>
       </div>
