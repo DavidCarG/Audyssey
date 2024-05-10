@@ -23,7 +23,7 @@ const DisplayAlbum = () => {
           <p className="mt-1">
             <img
               className="inline-block w-5"
-              src={assets.spotify_logo}
+              src={assets.audyssey_logo}
               alt=""
             />
             <b>Audyssey </b> • 1,323,154 likes • <b>50 songs, </b>
