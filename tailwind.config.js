@@ -12,6 +12,8 @@ export default {
         "progress-bar": "rgb(63 98 18)",
         "controls-bg": "rgb(248 250 252)",
         "profile-icon": "rgb(168 85 247)",
+        "album-hover": "#ffffff26",
+        "album-desc": "rgb(226 232 240)",
       },
     },
   },
