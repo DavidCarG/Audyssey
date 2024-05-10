@@ -14,6 +14,8 @@ export default {
         "profile-icon": "rgb(168 85 247)",
         "album-hover": "#ffffff26",
         "album-desc": "rgb(226 232 240)",
+        "playlist-info": "#a7a7a7",
+        "song-hover": "#ffffff26",
       },
     },
   },
