@@ -1,4 +1,5 @@
 import React from "react";
+import Display from "./components/Display";
 import Player from "./components/Player";
 import Sidebar from "./components/Sidebar";
 
@@ -7,6 +8,7 @@ const App = () => {
     <div className="h-screen bg-primary-bg">
       <div className="h-[90%] flex">
         <Sidebar />
+        <Display />
       </div>
       <Player />
     </div>
